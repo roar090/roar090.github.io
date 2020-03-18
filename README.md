@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+## 报告生成项目说明
 
-You can use the [editor on GitHub](https://github.com/roar090/roar090.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+当前GitHub上的这个页面，[index.html](https://roar090.github.io/index.html)文件用来显示报告生成的列表页。通过打开这个链接就能看到 [报告列表页](https://roar090.github.io/)。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### 目录说明
 
-### Markdown
+- 5i5j的目录内按照报告日期放置每次的报告。
+- qingweihui的目录下放青委会每次的报告。
+- 每个日期命名的报告目录下就是修改编辑新报告的地方。
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### 链接说明
 
-```markdown
-Syntax highlighted code block
+报告修改完后保存，链接就已经生成。以青委会为例，报告目录为/qingweihui/20200318，则生成的报告链接就是：
+[https://roar090.github.io/qingweihui/20200318/index.html](https://roar090.github.io/qingweihui/20200318/index.html)
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/roar090/roar090.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
