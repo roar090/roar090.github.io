@@ -1,6 +1,6 @@
 ## 报告生成项目说明
 
-当前GitHub上的这个页面，index文件夹用来显示报告生成的列表页。通过打开这个链接就能看到 [报告列表页](https://roar090.github.io/)。
+当前GitHub上的这个页面，[index.html](https://roar090.github.io/index.html)文件用来显示报告生成的列表页。通过打开这个链接就能看到 [报告列表页](https://roar090.github.io/)。
 
 ### 目录说明
 
