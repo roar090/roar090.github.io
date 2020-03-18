@@ -18,18 +18,40 @@
             list-style: none;
         }
 
-        .menu .news_list{
+        .menu .new_list{
+            width: 560px;
+            height: 50px;
+        }
+
+        .menu .news_list .news{
+            /*float: left;*/
             font-size: 18px;
             font-weight: 700;
             font-family: "Microsoft YaHei";
-            height: 50px;
             line-height: 50px;
-            border-bottom: 1px solid #ccc;
-            width: 560px;
+            /*background-color: red;*/
+            border-bottom: 1px solid #ff0000;
+            display: inline-block;
         }
 
         .menu .news_list a{
             color: #000;
+        }
+
+        .menu .news_list .more{
+            display: inline-block;
+            float: right;
+            line-height: 50px;  
+            margin-right: 50px;
+            color: #ccc;
+            /*border-bottom: 1px solid #ccc;*/
+            /*background-color: cyan;*/
+        }
+
+        .menu .news_list .line{
+            /*background-color: gold;*/
+            border-bottom: 1px solid #ccc;
+            width: 560px;
         }
 
         ul li div a{
@@ -41,56 +63,82 @@
             font-family: "Microsoft YaHei";
             width: 560px;
             margin:18px 0;
+            border-bottom: 1px dotted;
         }
 
         ul .list a{
             color: #000;
         }
 
-        ul .list span{
+        ul .list .date{
             float: right;
+        }
+
+        ul .list .point{
+            display: inline-block;
+            /*border: 1px solid red;*/
+            position: relative;
+            top: -7px;
+        }
+
+        ul .list .icon{
+            display: inline-block;
         }
     </style>
 </head>
 <body>
     <ul class="menu">
         <li class="news_list">
-            <div><a href="#">新闻列表</a></div>
+            <div class="news"><a href="#">新闻列表</a></div>
+            <div class="more"><a href="#">更多&gt&gt</a></div>
+            <div class="line"></div>
         </li>
         <li class="list">
             <div>
+                <span class="point"><img src="point.gif" alt=""></span>
+                <span class="icon"><img src="icon.jpg" alt=""></span>
                 <a href="#">崔龙洙解苏宁因何打动他 要以学习的姿态去中超</a>
-                <span>2016-06-23</span>
+                <span class="date">2016-06-23</span>
             </div>
         </li>
         <li class="list">
             <div>
+                <span class="point"><img src="point.gif" alt=""></span>
+                <span class="icon"><img src="icon.jpg" alt=""></span>
                 <a href="#">崔龙洙解苏宁因何打动他 要以学习的姿态去中超</a>
-                <span>2016-06-23</span>
+                <span class="date">2016-06-23</span>
             </div>
         </li>
         <li class="list">
             <div>
+                <span class="point"><img src="point.gif" alt=""></span>
+                <span class="icon"><img src="icon.jpg" alt=""></span>
                 <a href="#">崔龙洙解苏宁因何打动他 要以学习的姿态去中超</a>
-                <span>2016-06-23</span>
+                <span class="date">2016-06-23</span>
             </div>
         </li>
         <li class="list">
             <div>
+                <span class="point"><img src="point.gif" alt=""></span>
+                <span class="icon"><img src="icon.jpg" alt=""></span>
                 <a href="#">崔龙洙解苏宁因何打动他 要以学习的姿态去中超</a>
-                <span>2016-06-23</span>
+                <span class="date">2016-06-23</span>
             </div>
         </li>
         <li class="list">
             <div>
+                <span class="point"><img src="point.gif" alt=""></span>
+                <span class="icon"><img src="icon.jpg" alt=""></span>
                 <a href="#">崔龙洙解苏宁因何打动他 要以学习的姿态去中超</a>
-                <span>2016-06-23</span>
+                <span class="date">2016-06-23</span>
             </div>
         </li>
         <li class="list">
             <div>
+                <span class="point"><img src="point.gif" alt=""></span>
+                <span class="icon"><img src="icon.jpg" alt=""></span>
                 <a href="#">崔龙洙解苏宁因何打动他 要以学习的姿态去中超</a>
-                <span>2016-06-23</span>
+                <span class="date">2016-06-23</span>
             </div>
         </li>
     </ul>
